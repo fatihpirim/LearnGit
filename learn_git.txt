@@ -1,0 +1,176 @@
+  //these are commands I ran to learn git on 12/11/2022
+  
+  //cheat sheet: https://education.github.com/git-cheat-sheet-education.pdf
+  //git official reference manual: https://www.git-scm.com/docs
+  // youtube vid I used: https://www.youtube.com/watch?v=tRZGeaHPoaw
+  
+  215  git config --global user.name "Fatih Pirim"
+  216  git config --global user.email muzafferfatihpirim@gmail.com
+  217  git config --global init.default branch main
+  218  git config -h
+  219  git add -h
+  220  clear
+  221  pwd
+  222  ls
+  223  git init
+  224  ls -a
+  225  git status
+  226  ls
+  227  git add index.js
+  228  git status
+  229  git rm -cached index.js
+  230  git rm --cached index.js
+  231  ls
+  232  git status
+  233  clear
+  234  touch .gitignore
+  235  ls
+  236  ls -rot
+  237  ls -a
+  238  ls
+  239  touch hello.txt
+  240  ls
+  241  vi hello.txt
+  242  git init
+  243  git status
+  244  git status
+  245  git init
+  246  git status
+  247  git init
+  248  git status
+  249  clear
+  250  git status
+  251  git add .
+  252  git status
+  253  git commit -m "my first commit"
+  254  git status
+  255  git status
+  256  git diff
+  257  git add .
+  258  git status
+  259  history | grep "commit"
+  260  git commit -h
+  261  ls
+  262  git status
+  263  git commit -m "changed index.js a little"
+  264  git status
+  265  clear
+  266  ls
+  267  git status
+  268  git commit -h
+  269  git commit -a -m "added an html file"
+  270  git status
+  271  clear
+  272  git commit -a
+  273  git diff
+  274  ls
+  275  git diff --cached
+  276  git status
+  277  git commit -a
+  278  history
+  279  git add .
+  280  git status
+  281  git commit -a
+  282  ls
+  283  git log
+  284  git status
+  285  git add style.css
+  286  git status
+  287  git restore --staged style.css
+  288  git status
+  289  ls
+  290  git status
+  291  history
+  292  git rm --cached style.css
+  293  git status
+  294  git commit -a -m "added empty style.css"
+  295  ls
+  296  ls
+  297  git status
+  298  git -commit -a -h
+  299  git -commit -h
+  300  clear
+  301  git status
+  302  git commit -a -m "updated css and added csv"
+  303  git init
+  304  git status
+  305  git commit -a -m "test"
+  306  git add .
+  307  git status
+  308  git commit "added data.csv and style.css"
+  309  git commit -m "added data.csv and style.css"
+  310  git status
+  311  clear
+  312  git status
+  313  git commit -a -m "test"
+  314  git log
+  315  git add .
+  316  git commit -m "added secrets, OOPS :)"
+  317  git log
+  318  clear
+  319  git status
+  320  git commit -a -m "added secret code"
+  321  git status'
+  322  clear
+  323  git status
+  324  git restore secrets.py
+  325  ls
+  326  git mv data.csv awesome_data.csv
+  327  git commit -m "changed csv name"
+  328  git log
+  329  git log --oneline
+  330  git commit -m "changed csv name from data.csv to awesome_data.csv" --amend
+  331  git log
+  332  git log --online
+  333  history
+  334  git log --online
+  335  git log --oneline
+  336  ls
+  337  git rm secrets.py
+  338  git status
+  339  git commit -m "removed secrets phew"
+  340  git status
+  341  git log
+  342  clear
+  343  git commit --oneline
+  344  git log --oneline
+  345  git log -p
+  346  clear
+  347  la
+  348  ls
+  349  git branch UpdatePageTitle
+  350  git branch
+  351  git switch UpdatePageTitle
+  352  git switch master
+  353  git branch
+  354  git switch UpdatePageTitle
+  355  git status
+  356  git commit -a -m "updated title"
+  357  git switch master
+  358  git switch UpdatePageTitle
+  359  git switch UpdatePageTitle
+  360  git switch master
+  361  git switch UpdatePageTitle
+  362  git switch main
+  363  git switch master
+  364  clear
+  365  git merge -m "merged updated title" UpdatePageTitle
+  366  git branch
+  367  git branch -d UpdatePageTitle
+  368  git branch
+  369  git switch -c ChangeStyle
+  370  git branch
+  371  git switch master
+  372  git switch ChangeStyle
+  373  ls
+  374  git status
+  375  git commit -a -m "changed background to reddish color"
+  376  git switch main
+  377  ls
+  378  git status
+  379  git switch main
+  380  git switch master
+  381  git commit -a -m "changed background color to green"
+  382  git merge ChangeStyle
+  383  git commit -a -m "update back color"
+  384  history

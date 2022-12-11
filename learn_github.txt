@@ -1,0 +1,11 @@
+  //cheat sheet: https://education.github.com/git-cheat-sheet-education.pdf
+  //git official reference manual: https://www.git-scm.com/docs
+  // youtube vid I used: https://www.youtube.com/watch?v=tRZGeaHPoaw
+
+  385  git remote add origin https://github.com/fatihpirim/LearnGit.git //you get this when you create a repo in github
+  386  git branch -M master
+  387  git push -u origin master
+  388  git push --all
+  389  git fetch
+  390  git merge
+  391  git pull
